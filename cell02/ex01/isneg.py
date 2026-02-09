@@ -1,6 +1,6 @@
 
 num = input("Enter a number: ")
-number = float(num)
+number = int(num)
 
 if number < 0:
         print("This number is negative.")
