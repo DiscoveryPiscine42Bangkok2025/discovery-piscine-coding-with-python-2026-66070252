@@ -1,4 +1,4 @@
-myage = 22
+age = 22
 bk = 42
-
-print(myage+bk)
+my_age = age + bk
+print(my_age)
