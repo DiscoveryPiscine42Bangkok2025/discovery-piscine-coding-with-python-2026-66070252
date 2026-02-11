@@ -1,3 +1,5 @@
+#!python
+
 for table_num in range(1, 11):
     print(f"Table de {table_num}:", end=" ")
         

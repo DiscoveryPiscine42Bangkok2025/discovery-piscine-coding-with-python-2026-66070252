@@ -1,6 +1,6 @@
-num = int(input("Enter a number: "))
+#!python
 
-print(f"--- Multiplication Table for {num} ---")
+num = int(input("Enter a number: "))
         
 for i in range(0, 10):
     result = num * i

@@ -1,7 +1,8 @@
+#!python
 
-num = int(input("Enter a starting number: "))
+num = int(input("Enter a number less than 25: "))
 if num > 25:
-        print("Error\n")
+        print("Error")
 else:
     current = num
     while current <= 25:

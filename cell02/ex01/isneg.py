@@ -1,4 +1,3 @@
-
 num = input("Enter a number: ")
 number = int(num)
 
