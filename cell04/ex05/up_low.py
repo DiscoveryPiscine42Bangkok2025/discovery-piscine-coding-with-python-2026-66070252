@@ -1,4 +1,6 @@
-user_string = input("")
-swapped_string = user_string.swapcase()
-    
-print(swapped_string)
+#!python
+
+word = input()
+swapped = word.swapcase()
+
+print(swapped)
