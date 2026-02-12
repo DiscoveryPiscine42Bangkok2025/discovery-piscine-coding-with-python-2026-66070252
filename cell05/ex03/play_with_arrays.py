@@ -1,12 +1,14 @@
-original_array = [2, 8, 9, 48, 8, 22, -12, 2]
+#!python
+
+array = [2, 8, 9, 48, 8, 22, -12, 2]
     
-new_values_set = set()
+new = set()
     
-for value in original_array:
-    if value > 5:
-        new_values_set.add(value + 2)
+for i in array:
+    if i > 5:
+        new.add(i + 2)
             
-new_array = list(new_values_set)
+new_array = list(new)
     
-print(original_array)
+print(array)
 print(new_array)
